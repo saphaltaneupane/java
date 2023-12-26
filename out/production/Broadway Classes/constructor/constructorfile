@@ -1,0 +1,35 @@
+Constructor
+definiation
+->is used to create object in class
+->special type of method which has same name as class name
+-> if there is no any user defined constructor in class java provides default constructor to create object.
+->Types:
+     1> Default Constructor
+     # use to create object and set default values to it.
+     syntax:
+     class_name(){
+     set default values to objects
+     }
+     2>Parameterized Constructor
+     #used to create object and set dynamic values to it.
+     Syntax:
+     class_name(arg1,arg,........argn){
+     // set dynamic values to object
+     }
+     object create garda gardai run garauna so constructor
+     ->'this' keyword represent current object nakarai action ma bako recent
+     ->we can call
+     * instance variables
+     *instance methods
+     * constructor
+     using 'this' keyword
+     # constructor overloading - need anusar create garna milxa dherai ota constructor banya
+     -object sanga aauxa instance variable
+     -object sanga class ma bako instance
+     # object class bata inherit hunxaa object haru implicity
+     ------- constructor doesnt return value---but it return objects
+
+
+
+
+

@@ -1,0 +1,24 @@
+/---------------------/Java Collection /Collection framework------------
+-for dynamic collection
+- use to store and processing  group/ collection of dynamic data/object in java.
+-interface/apis :
+-1>List:
+dynamic array.
+runtime ma use hunxa memory wastage badhi hunxa yesma size thaha hunna so size is dynamic .
+                a>Arraylist: processing slow,stack scenario, better to use for data storage
+                b>LinkedList: processing fast, better to use for data processing
+2>set:
+ collection of unique data
+ // example 2 lakh student fromn= same to different college
+ aba set ma halesi asian ko 10 ota manvche xa baney ni asian ek xoti  aauxa college ganxa uniquely
+                 a>HashSet: unique data only
+                 b>TreeSet: unique + sorted data
+                 c>LinkedHashSet: unique +insertion in order( jun paile halyo tei aauxa payeyle)
+3>map :
+data manage in key,value pair
+example:
+course name: java
+price:      1000000
+           a>HashMap: <k,v> pair
+           b>TreeMap: <k,v> +sorted data
+           c>LinkedHashMap; <k,v> + insertion in order

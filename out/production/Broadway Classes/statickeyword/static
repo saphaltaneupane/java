@@ -1,0 +1,15 @@
+-------------Static------------
+-static is used for memory management
+-object le different variable linxa
+-object haru instance  heap memory tira individual;
+- class memory ma static haru load hunxa  sabai ko grouped such as int int le 4 byte liyo baney while using static keyword
+- per class euta banxa
+-class. static such as math class / object. instance
+- main method ma use garna static gareko ki na baye object banaunu parthiyo
+-static values can be changed
+- class area ma hunxa static ko memory
+-object belongs to class
+-object class ma bolauda object chayinxa
+-class ko object banaunu pardena object bitra
+-this and super both refer to current object so cant be used in static keyword
+

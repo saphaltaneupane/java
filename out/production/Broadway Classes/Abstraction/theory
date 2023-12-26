@@ -1,0 +1,36 @@
+-----------Abstraction--------------
+#process of hiding implementation  details in the programs.
+
+
+
+#to achieve abstraction:
+      a>Abstract class:
+      class which contains abstract(unimplemented) methods and non-abstract (implemented) methods is known as abstract class
+      #ABstract method:
+      = method which doesnot have body/implementation
+        e.g.
+        abstract void add();
+        abstract void print(String msg);
+
+         jasko implementation child ma farak hunxa inherit garda sab aauca inheritance ma ta kunai chaneg garda bayo yesma ta override garnai paryo
+     # every abstract class must have at least one child class ans child class must override abstract methods.
+     #we cant create object of abstract class,
+     #level of abstraction 0-100%
+      syntax:
+       abstract class class_name{
+       //abstract methods
+       // non-abstract methods
+       }
+
+        b>Interface:
+               # same as class which contains public abstract methods and public static final(constants) variables is known as interface.
+
+               #every interface must have at least one implementation class and implementation class must override
+               abstract method
+               #we cant create object of interface.
+               #100%abstraction
+
+               syntax:
+               interface interface_name{
+               // public abstract methods
+               }

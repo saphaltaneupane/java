@@ -1,0 +1,22 @@
+----------Object as parameters-----------
+a>Object with parameter
+student->id,fn,ln,college,age,.........30th// dherai ota variable
+void printStudent(Student s){ // object laye nai parameter ma pass garey
+}
+Student s= new Student();
+s.id =3434;
+print Student(s);
+b>Object as a return type:
+Student getStudentData(){
+// create object of student
+//set all the values to the object
+return student object;
+
+}
+ // array for multiple data chaye
+ void printStudent(Student[] s){ // object laye nai parameter ma pass garey
+ }
+
+
+ -----------
+

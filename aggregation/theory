@@ -1,0 +1,9 @@
+-----------aggregation---------------
+*student has a car
+*has a--- relationship
+*euta class laye  as a variable/feature ko roop ma aru class ma use huney
+*program ma redunacy hatauna repitation hatauna suppose student ko ni car teacher class ma ni car aru ma ni car  class nai xutai banauney
+* aggregation include composition
+composition - tightly bind car has a engine /inner class / car bitra engine ko class
+aggregation- aba supoose student man ra car teti saro tightly bind hunna
+

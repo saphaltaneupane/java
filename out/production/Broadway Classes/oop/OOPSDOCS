@@ -1,0 +1,42 @@
+ /*---OOP (Object oriented programming)---
+    * 1>class & object
+    * 2> Encapsulation
+    * 3> Inheritance
+    * 4>Polymorphism
+    * 5>Abstraction
+    *     a> Abstract class
+    *      b>Interface
+    *  ------------ Class---------
+    *        why class?
+    *   real world entity such as dogs ,house sabai ko not personal/ not all.
+    * # used to represent real world entity or things.
+    * class contains features/properties and methods.
+    * its a group or collection of object having similar behaviours.
+    * also known as blueprint/template of objects.
+    * template-conceptual visualization of the object example mobile ko template aba iphone 16 pro max banauna
+    * class is a reference or user-defned data type.
+    * syntax:
+    *  class class_name{
+    *  properties
+    *  methods/responsibilites
+    * }
+    * ----------------Object-----------
+         #implementation of class is object
+         #instance of class /object= instance same
+         #object contains instance variables and instance methods
+         #object allocates memory when it created
+         #(state=value)aba ma school ma student ghar ma member
+         # class laye use garna object banauney
+         #memory allocation of object- 4 bytes
+          5 ota variable xa baney instance variable (5*4) int ma bayo baney
+
+
+          Syntax:
+          class_name obj_name = new class_name();
+        new- memory allocated garxa
+        object kosle banauxa?
+        eg:
+        Cat c = new Cat();
+        A a = new A();
+        object is created with class only
+        Mobile m = new Mobile();

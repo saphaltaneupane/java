@@ -1,0 +1,8 @@
+\----------------Method Overriding -----------\
+*used to achieve polymorphism
+*also known as run time polymorphism
+*inheritance must be there for  method overriding
+*there should be IS-A relationship between classes.
+*method name, return type ,list of parameter same as parent class but implementation is different in child class,
+then we can do methodoverriding.j
+

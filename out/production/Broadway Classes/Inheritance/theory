@@ -1,0 +1,16 @@
+-----------Inheritance-----------
+- used for code reusability
+- process of accessing properties and methods of parent/super/base class to child/sub/derived class is known as inheritance
+- Also called IS-A relationship
+- Its a Generalization to Specialization
+- we can inherit only one class at a time.
+- We can't inherit private properties,methods and constructors.
+-class ko kura matrai hunxa yesma
+-'extends' keyword is used for inheritance
+- we can inherit static properties and methods.
+Syntax:
+child-class extends parent-class{
+// properties : child+parents
+// methods: child+parents
+}
+

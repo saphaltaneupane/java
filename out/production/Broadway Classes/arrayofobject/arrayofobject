@@ -1,0 +1,6 @@
+/-------------array of object-------
+Syntax:
+class-name array[]= new class-name[size];
+Book books[] = new Book[50];
+Book b1= new Book();
+books[i]=b1;
