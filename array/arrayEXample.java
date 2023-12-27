@@ -2,6 +2,7 @@ package array;
 
 public class arrayEXample {
     public static void main(String[] args) {
+       
        // fixed size, simple data type, multiple values
         // collection of homogeneous data; multiple values of same data type with
         // fixed sized
@@ -21,4 +22,5 @@ public class arrayEXample {
 
     }
 }
-
+// String [] names =  new  String [90];
+//String name[] = {"ram","sita", "10"};
