@@ -1,0 +1,6 @@
+file - long term data storage
+classes of file handling:
+a>FileOutputStream: file write
+b>FileInputStream: file read
+
+
