@@ -16,3 +16,4 @@ public class Type2Method {
         }
     }
 }
+//static and classes are stored in same memory location of heap , and are loaded by classloader program during execution of program.

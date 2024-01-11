@@ -1,6 +1,8 @@
 package arraywithmethod;
 // tyo int further use baneko area of cube and volume nikalda garney
 import java.util.Arrays;
+import java.util.Scanner;
+
 public class arraymethod {
     /*
      * ---------Array with method---------
@@ -15,7 +17,7 @@ public class arraymethod {
         int array[] = {3, 4, 5, 6, 7, 8, 8, 8, 9};
         sum(array); // anonomos array sum(new int[] {7,5,6,7,7,6,7,8});
         int[] odds = getOddNumsFrom1to100();
-        System.out.println(Arrays.toString(odds));
+        System.out.println(Arrays.toString(odds));    //  output without Arrays.toString = [I@7291c18f
 
     }
 
@@ -27,6 +29,17 @@ public class arraymethod {
         }
         System.out.println("total:" + s);
     }
+
+//    static void sum2(int n){
+//        Scanner s = new Scanner(System.in);
+//        int sum=0;
+//        for(int i = 0;i<n;i++){
+//            in = s.nextInt();
+//            sum=sum+in;
+//        }
+//        System.out.println("sum" +sum);
+//    }
+
 
     //------array as return type---------
     static int[] getOddNumsFrom1to100() {
@@ -41,3 +54,4 @@ public class arraymethod {
         return oddnums;
     }
 }
+

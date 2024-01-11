@@ -21,7 +21,7 @@ public class arraytest {
 
         }
         for (int x : age) {
-            System.out.println(x);
+            System.out.println(x); //  returns value inside of the index;
         }
     }
 }

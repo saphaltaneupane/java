@@ -21,6 +21,13 @@ public class subjectstotal{
             System.out.print(subjects[i]+" " +subjectsmarks[i]);
             System.out.println();
         }
+//     for(int x:subjectsmarks)
+//
+//     {
+//
+//         System.out.println(subjectsmarks+" "+x);
+//     }
+
         System.out.println("total:"+total);
         int percent=total/5;
         System.out.println(percent);
