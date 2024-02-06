@@ -16,7 +16,7 @@ public class File1Test {
         folder.mkdir();
         //get all files names from folder
         String[] fileNames= folder.list();
-
+         // return all files names
         System.out.println(Arrays.asList(fileNames));
         //get all files
         File[] files = folder.listFiles();

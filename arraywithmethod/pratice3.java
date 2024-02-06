@@ -7,9 +7,9 @@ public class pratice3 {
 
 
     }
-    static int generateRandomNumbers(int n){
-        for(int i=0;i<=100;i++){
-            =array[i];
-        }
+//    static int generateRandomNumbers(int n){
+////        for(int i=0;i<=100;i++){
+////            =array[i];
+//        }
     }
-}
+
