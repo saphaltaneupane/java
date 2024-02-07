@@ -8,7 +8,7 @@ import java.util.Arrays;
 
 public class File1Test {
     public static void main(String[] args) throws IOException {
-        File file= new File("e://nepal.txt");
+        File file= new File("d://employeee.txt");
         System.out.println(file.isDirectory());//is given folder or not
         System.out.println(file.isFile());//file xa baney matrai true dinxa
         System.out.println(file.exists());
@@ -19,10 +19,11 @@ public class File1Test {
          // return all files names
         System.out.println(Arrays.asList(fileNames));
         //get all files
-        File[] files = folder.listFiles();
+        File[] files = folder.listFiles();//return all files
         for(File f1:files){
             Files.readString(Path.of(f1.getAbsolutePath()));
             System.out.println(Files.readString(Path.of(f1.getAbsolutePath())));
         }
+        Files.delete(Path.of(file.getAbsolutePath()));//delete garna
     }
 }
