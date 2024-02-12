@@ -6,7 +6,7 @@ public class user  implements Serializable {
     private static final long serialVersionUID = 32988388822922L;
     private int id;
     private String username;
-    private String password;
+    private  transient String password; // hide the data
     public user(){}
     public user(int id, String username, String password) {
         this.id = id;

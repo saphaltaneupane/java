@@ -1,0 +1,41 @@
+#Http Request:
+a>get : Default request
+        not secure
+        data limit(max-256)
+        use to open view pages
+
+ b>post:
+       method='post'
+       secure(data hide in body)
+       no data limit
+       use to send form data to server
+
+
+#Web Server :
+      server is used to run we programs web applications
+      use to run dynamic web apps
+      Tomcat // server
+      server chayeyo baney dynamic
+
+
+ #application server: certain app  handle eg gmail server
+ Types of servers:
+ JSP,Servelt
+
+server side use to handle the requests
+
+@WebServlet("/url-pattern")// calling the name of servlet
+  syntax:
+    class class_name() extends HttpServlet{
+
+    }
+
+    //get request
+    void doGet(HttpServletRequest req, HttpServletResponse resp){
+    //statements
+
+    }
+    //post request
+    void doPost(HttpServletRequest req, HttpServletResponse resp){
+ //statements
+        }
